@@ -21,6 +21,13 @@ const translations = {
     'languageToggle': 'English',
     'restaurantName': 'أميروز',
     'restaurantTagline': 'مذاق لا يُنسى',
+    'contactUs': 'اتصل بنا',
+    'ourAddress': 'عنواننا',
+    'address': 'العنوان',
+    'landline': 'الهاتف الثابت',
+    'mobile': 'الهاتف المحمول',
+    'chatOnWhatsApp': 'تواصل عبر واتساب',
+    'contactViaWhatsApp': 'تواصل عبر واتساب'
   },
   en: {
     'all': 'All',
@@ -33,6 +40,13 @@ const translations = {
     'languageToggle': 'العربية',
     'restaurantName': "AMEERO'Z",
     'restaurantTagline': 'Unforgettable Taste',
+    'contactUs': 'Contact Us',
+    'ourAddress': 'Our Address',
+    'address': 'Address',
+    'landline': 'Landline',
+    'mobile': 'Mobile',
+    'chatOnWhatsApp': 'Chat on WhatsApp',
+    'contactViaWhatsApp': 'Contact via WhatsApp'
   }
 };
 
