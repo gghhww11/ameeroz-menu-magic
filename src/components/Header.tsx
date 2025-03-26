@@ -7,10 +7,12 @@ const Header: React.FC = () => {
 
   return (
     <header className="w-full flex flex-col items-center justify-center py-12 animate-fade-in">
-      <div className="w-28 h-28 rounded-full bg-white shadow-lg flex items-center justify-center mb-4 logo-glow">
-        <h1 className="text-ameeroz-red text-4xl font-bold">
-          {translate('restaurantName').charAt(0)}
-        </h1>
+      <div className="w-32 h-32 mb-4 logo-glow">
+        <img 
+          src="/lovable-uploads/243a64e4-12b6-49ff-8269-99e020d095c4.png" 
+          alt="AMEERO'Z Logo" 
+          className="w-full h-full object-contain"
+        />
       </div>
       <h1 className="text-ameeroz-red text-3xl md:text-4xl font-bold mb-2">
         {translate('restaurantName')}

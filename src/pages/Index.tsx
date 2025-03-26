@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import CategoryFilter from '../components/CategoryFilter';
 import MenuCard from '../components/MenuCard';
 import LanguageToggle from '../components/LanguageToggle';
+import ContactSection from '../components/ContactSection';
 
 const Index = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -36,6 +37,8 @@ const Index = () => {
               <MenuCard key={item.id} item={item} />
             ))}
           </div>
+          
+          <ContactSection />
         </div>
       </div>
     </LanguageProvider>
